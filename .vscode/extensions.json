@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "shopify.ruby-lsp",
+    "castwide.solargraph"
+  ]
+}

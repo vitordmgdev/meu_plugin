@@ -1,0 +1,22 @@
+plugins:
+  - rubocop-sketchup
+
+AllCops:
+  DisabledByDefault: true
+  SketchUp:
+    TargetSketchUpVersion: 2025
+  TargetRubyVersion: 3.2
+  Include:
+    - src/**/*
+  CacheRootDirectory: .rubocop_cache
+
+SketchupDeprecations:
+  Enabled: true
+SketchupPerformance:
+  Enabled: true
+SketchupRequirements:
+  Enabled: true
+SketchupSuggestions:
+  Enabled: true
+SketchupBugs:
+  Enabled: true

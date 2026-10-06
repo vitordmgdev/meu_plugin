@@ -1,0 +1,4 @@
+dist/
+.rubocop_cache/
+.yardoc/
+doc/
