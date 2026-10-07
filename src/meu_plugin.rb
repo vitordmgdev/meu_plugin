@@ -8,8 +8,6 @@ module MeuPlugin
     ex.creator     = 'Vitor Domingues'
     Sketchup.register_extension(ex, true)
 
-    const model = Sketchup.active_model    
-
     file_loaded(__FILE__)
   end
 end
